@@ -51,17 +51,7 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Data files (optional - uncomment if not pushing large files)
-# *.csv
-# *.parquet
-# *.feather
 
-# Model files (optional - uncomment if not pushing models)
-# model/
-# *.pkl
-# *.joblib
-# *.h5
-# *.model
 
 # Streamlit
 .streamlit/
@@ -75,5 +65,18 @@ logs/
 *.tmp
 *.temp
 
-# Polars cache
-.polars_cache/
+
+
+# Model files - KEEP THESE PRIVATE
+*.pkl
+*.joblib
+*.model
+*.h5
+
+# Data files (optional - if you also want to hide CSV)
+# *.csv
+# *.parquet
+
+# Model directory
+models/
+artifacts/
